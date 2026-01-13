@@ -3,3 +3,70 @@ h3{
     background-color: brown;
     font-size: 50px;
 }
+.t_transform_uppercase{
+    text-transform:uppercase;
+}
+
+.t_transform_lowercase{
+    text-transform:lowercase;
+}_
+
+.t_transform_capitalize{
+    text-transform:capitalize;
+}
+
+.t_align_center{
+    text-align:center;
+}
+
+.t_align_right{
+    text-align:right;
+}
+
+
+.t_decor_over{
+    text-decoration: overline;
+}
+
+.t_decor_line{
+    text-decoration: line-through;
+}
+
+.t_decor_under{
+    text-decoration: underline;
+}
+
+.t_decor{
+    text-decoration: underline line-through overline;
+}
+
+.t_indent{
+    text-indent:160px ;
+}
+
+.t_line_height{
+    line-height: 28px;
+}
+
+.t_letter_spacing{
+    letter-spacing: 10px;
+}
+
+.t_word_spacing{
+    word-spacing: 15px;
+}
+
+.t_shadow{
+    color: aqua;
+    text-shadow: 4px 5px 7px red;
+    font-size: 30px;
+    text-align: center;
+}
+
+.t_shadow2{
+    color:blue;
+    text-shadow: 6px 7px 8px yellow;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
