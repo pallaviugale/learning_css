@@ -70,3 +70,58 @@ h3{
     text-align: center;
     text-transform: capitalize;
 }
+
+.img_b_shadow{
+    width: 400px;
+    box-shadow: 5px 6px 7px pink;
+
+
+}
+
+.img_shadow2{
+    width: 200px;
+    box-shadow: 6px 7px 8px greenyellow;
+}
+
+.img d shadow{
+    width:50px;
+    filter:drop-shadow(5px 5px 5px green);
+}
+
+.f_family1{
+    font-family: monospace;
+}
+
+.f_family2{
+    font-family:cursive ;
+}
+
+.f_family3{
+    font-family: sans-serif;
+}
+
+.f_family4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.f_weight{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.f_font{
+    font: italic bold 30px verdana;
+}
+
+.heading1{
+    color: red;
+    font-size: 40px;
+}
+
+#heading1{
+    color: blue;
+}
+
+.t_trasform{
+    text-transform: uppercase;
+}
