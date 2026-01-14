@@ -127,38 +127,42 @@ h3{
 }
 
 .b_img1{
-    width: 10px;
-    height: 20px;
+    width: 50px;
+    height: 70px;
     border: 8px solid blue;
     padding: 60px;
     margin: 100px;
 }
 
 .b_img2{
-    width: 20px;
-    height: 30px;
+    width: 80px;
+    height: 70px;
     border: 8px outset red;
 }
 
 .b_img3{
-     width: 10px;
+     width: 50px;
     border: 8px groove blue;
 }
 
 .b_img4{
-     width: 10px;
+     width: 50px;
     border: 8px ridge blue;
 }
 
 .b_img5{
-     width: 500px;
+     width: 70px;
     border: 8px dashed pink;
 
 }
 
 .b_img6{
-    height: 400px;
+    height: 70px;
     border: 5px solid;
+    border-top-color: brown;
+    border-bottom-color: blue;
+    border-right-color: aqua;
+    border-left-color: yellow;
 
     
      
