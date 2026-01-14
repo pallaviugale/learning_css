@@ -125,3 +125,94 @@ h3{
 .t_trasform{
     text-transform: uppercase;
 }
+
+.b_img1{
+    width: 10px;
+    height: 20px;
+    border: 8px solid blue;
+    padding: 60px;
+    margin: 100px;
+}
+
+.b_img2{
+    width: 20px;
+    height: 30px;
+    border: 8px outset red;
+}
+
+.b_img3{
+     width: 10px;
+    border: 8px groove blue;
+}
+
+.b_img4{
+     width: 10px;
+    border: 8px ridge blue;
+}
+
+.b_img5{
+     width: 500px;
+    border: 8px dashed pink;
+
+}
+
+.b_img6{
+    height: 400px;
+    border: 5px solid;
+
+    
+     
+}
+
+
+.b_img7{
+    width: 400px;
+    border: 8px double red ;
+    border-radius: 20px;
+}
+.b_img8{
+    width: 400px;
+    border: 8px double red ;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 50px;
+    border-bottom-left-radius:70px ;
+}
+
+.b_img9{
+    width: 400px;
+    border:7px double blueviolet;
+    border-radius: 50px 80px 50px 80px ;
+}
+
+.simple{
+    border: 5px solid red;
+}
+
+.box_model1{
+    border: 5px solid red;
+    padding: 40px;
+    margin: 50px;
+}
+
+.box_model2{
+    border: 5px solid red;
+    /* padding-top: 40px;
+    padding-right: 60px;
+    padding-left: 10px;
+    padding-bottom: 80px; */
+    /* top-bottom,right-left */
+    padding: 10px 60px;
+    padding: 30px 20px 30px 20px ;
+}
+
+.box_model3{
+    border: 5px dashed blueviolet;
+    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: cursive;
+    box-shadow: 10px 20px 7px red;
+}
