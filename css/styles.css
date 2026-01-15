@@ -220,3 +220,81 @@ h3{
     font-family: cursive;
     box-shadow: 10px 20px 7px red;
 }
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    border: 4px solid red;
+    margin-bottom: 10px ;
+
+}
+
+.box1{
+    position: static;
+}
+
+.box2{
+    position: relative;
+    top:30px ;
+    left: 150px;
+}
+
+.box3{
+    position: absolute;
+    top:30px ;
+    left: 150px;
+}
+
+.box4{
+    position: fixed;
+    bottom:0px ;
+    right: 150px;
+}
+
+.box5{
+    position: sticky;
+    top:30px ;
+    left: 150px;
+}
+
+.rel{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    left:100px;
+}
+
+#tv{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    background-color:red;
+    left:125px;
+}
+
+#sofa{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    background-color:#15ff00;
+    
+    top:120px
+}
+
+#fridge{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    background-color:#ff0077;
+    right:100px
+    bottom:70px
+}
+
+body{
+    
+}
+
+
+
