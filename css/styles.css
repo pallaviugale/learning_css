@@ -292,7 +292,92 @@ h3{
     bottom:70px
 }
 
+.flex-item{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    margin-top: 10px;
+    background-color:grey;
+    color: beige;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{ 
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content:space-evenly;
 
 
+}
 
+.flex-gallary1{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 10px;
+   
+}
+
+.flex-gallary2{
+    display: flex;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+
+}
+.para_bg{
+    font-size: 10px;
+}
+
+
+.para_bg:hover{
+    border:2px solid red;
+    padding: 50px;
+    background:linear-gradient(green,black);
+}
+
+h1{
+    font-size: 100px;
+
+}
+h1:hover{
+    background-color: #ff0077;
+}
+
+h2:active{
+    color: red;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+a.visited{
+    color: #15ff00;
+}
+
+input:focus{
+    background-color: aqua;
+    color: black;
+    border: 5px solid red;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
+p::first-line{
+    color: green;
+}
+
+::selection{
+    color: red;
+    background-color: yellow;
+}
 
