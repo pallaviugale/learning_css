@@ -381,3 +381,42 @@ p::first-line{
     background-color: yellow;
 }
 
+ul{
+    width: 200px;
+    padding: 10px;
+    list-style-type: none;
+    font-weight: 900;
+}
+
+li{
+    padding: 10px;
+    border: 3px solid gray;
+    margin-bottom: 6px;
+    border-radius: 10px;
+}
+
+li:nth-child(odd){
+    background-color: aqua;
+}
+
+li:nth-child(even){
+    background-color:palevioletred;
+}
+
+li:first-child{
+    background-color: #15ff00;
+
+}
+
+li:last-child{
+    background-color: red;
+}
+
+li:nth-child(5){
+    background-color: coral;
+}
+
+li:last-child{
+    background-color: wheat;
+}
+
