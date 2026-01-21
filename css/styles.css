@@ -476,3 +476,122 @@ li:last-child{
 .box9:hover{
     transform: multi(translateX(50px) rotate(180deg));
 }
+
+.text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-weight: 800;
+    perspective: 50px;
+}
+
+.text-container > b{
+    height: 90px;
+    box-shadow: 0px 30px 15px gray;
+    background :linear-gradient(to right,red, green,yellow,pink );
+    background-clip:text;
+    color:transparent;
+    transform-origin:bottom;
+    animation: getup 10s infinite;
+
+}
+
+.text-container>b:nth-child(1)
+{
+    animation-delay: 0s;
+}
+
+.text-container>b:nth-child(2)
+{
+    animation-delay: 0.20s;
+}
+
+.text-container>b:nth-child(3)
+{
+    animation-delay:0.40s;
+}
+
+.text-container>b:nth-child(4)
+{
+    animation-delay: 0.60s;
+}
+
+.text-container>b:nth-child(5)
+{
+    animation-delay: 0.80s;
+}
+
+.text-container>b:nth-child(6)
+{
+    animation-delay: 0.90s;
+}
+
+.text-container>b:nth-child(7)
+{
+    animation-delay: 1s;
+}
+
+@keyframes getup{
+    from{transform: rotateX(-85deg);}
+    10%,50%{transform: rotateX(0);}
+    60%,to{transform: rotateX(-85deg);}
+}
+
+body{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swing{
+    animation: swing 1.5s ease-in-out infinite alternate;
+    transform-origin: top center;
+    position: relative;
+    
+}
+
+.swing img{
+    width: 200px;
+    border:14px groove yellow;
+    box-shadow: 8px 8px 8px gray;
+    display: block;
+   margin-top: 100px;
+}
+.swing::before{
+    content: "  ";
+    position: absolute;
+    top: -50px;
+    left:50%;
+    transform: translateX(-50%);
+    width:6px;
+    height: 50px;
+    background: gray;
+     margin-top: 100px;
+}
+
+.swing::after{
+    content: "  \2B24 ";
+    position: absolute;
+    top: -60px;
+    left:50%;
+    transform: translateX(-50%);
+    height: 10px;
+    border-radius: 50%;
+
+}
+@keyframes swing{
+    0%{transform: rotate(3deg);}
+    100%{transform: rotate(-3deg);}
+}
+/* simple css animation codepen */
+/* hover effect button codepen */
+
+
+
+
+
+
